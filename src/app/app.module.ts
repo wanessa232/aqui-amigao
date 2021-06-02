@@ -8,6 +8,7 @@ import { ComentarioComponent } from './componente/comentario/comentario.componen
 import { UsuarioComponent } from './componente/usuario/usuario.component';
 import { PostagemComponent } from './componente/postagem/postagem.component';
 import { CompartilhamentoComponent } from './componente/compartilhamento/compartilhamento.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { CompartilhamentoComponent } from './componente/compartilhamento/compart
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
